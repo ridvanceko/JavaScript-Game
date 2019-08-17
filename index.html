@@ -2,9 +2,6 @@
 <html lang="en-us">
 
 
-<link rel="stylesheet" href="./assests/css/style.css">
-
-<link rel="stylesheet" href="./assests/javascript/game.js">
 
 
 
@@ -12,6 +9,11 @@
 <head>
   <meta charset="UTF-8">
   <title>The Psychic Game</title>
+  <link rel="stylesheet" href="./assests/css/style.css">
+
+
+
+</head>
 
 
 
@@ -29,13 +31,13 @@
   <p>Your guesses so far: <span id="playersGuess"></span></p>
 
 
-  <script>
+  <!-- <script>
 
     var lettersGuessed = [];
     var guessesLeft = 9;
     var wins = 0;
 
-    // Math.random 
+   // Math.random 
     var computerGuess =
       String.fromCharCode(
         Math.round(Math.random() * 26) + 97
@@ -127,12 +129,14 @@
 
 
 
-  </script>
+  </script> -->
 
 
 
 
+  <script rel="javascript" src="./assests/javascript/game.js"></script>
 
 </body>
+
 
 </html>
